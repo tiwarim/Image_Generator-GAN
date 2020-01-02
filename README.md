@@ -58,6 +58,19 @@ epoch 12: <br />
 epoch 15 : <br />
 ![fake_samples_epoch_015](https://user-images.githubusercontent.com/41305591/71658028-552d9a00-2d10-11ea-8ec1-85ce07c8acd7.png) <br />
 
+epoch 18 : <br />
+![fake_samples_epoch_018](https://user-images.githubusercontent.com/41305591/71658436-0e40a400-2d12-11ea-91eb-6f25fcf9f03d.png) <br />
+
+<br />
+<br />
+<br />
+**Issue** <br />
+There is a bug in the code which caused the model to take a noise as input in its 19th epoch and thus it started again from square one. <br />
+
+epoch 19: <br />
+![fake_samples_epoch_019](https://user-images.githubusercontent.com/41305591/71658562-8b6c1900-2d12-11ea-9883-24d27f4cb374.png) <br />
+
+
 epoch 21 : <br />
 ![fake_samples_epoch_021](https://user-images.githubusercontent.com/41305591/71658058-6d9db480-2d10-11ea-9e7f-0fd56a2aca1f.png) <br />
 
@@ -67,4 +80,7 @@ epoch 24 : <br />
 ## Acknowledgments
 
 * Learning Multiple Layers of Features from Tiny Images, Alex Krizhevsky, 2009
+* Udemy
+* Hadelin de Ponteves
+* Kirill Eremenko
 
