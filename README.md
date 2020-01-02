@@ -39,19 +39,11 @@ run the app and wait for the model to get trained and generate images. Once fini
 <br />
 
 **Results** <br />
-![](results.gif)
-
-
-
-
-
-## Built With
+![results](https://user-images.githubusercontent.com/41305591/71657438-d59ecb80-2d0d-11ea-9886-da2e19ca6238.gif)
 
 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Learning Multiple Layers of Features from Tiny Images, Alex Krizhevsky, 2009
 
