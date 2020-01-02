@@ -38,10 +38,31 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 run the app and wait for the model to get trained and generate images. Once finished, images should be generated in a separate folder called "results". This folder would containing an image labellel "real_samples.png" which contains 64 tiny sample sample images. The model learns from these images, generates fake images and then gets better at it. This process repeats for 25 epochs. At the end we get a fake image generated at each epoch (see results folder).
 <br />
 
+**Sample Image** <br />
+![real_samples](https://user-images.githubusercontent.com/41305591/71657759-3c70b480-2d0f-11ea-8ba6-9656d16a102b.png) <br />
+
+
 **Results** <br />
-![results](https://user-images.githubusercontent.com/41305591/71657438-d59ecb80-2d0d-11ea-9886-da2e19ca6238.gif)
+epoch 0 : <br />
+![fake_samples_epoch_000](https://user-images.githubusercontent.com/41305591/71657863-a8531d00-2d0f-11ea-9b94-961960a62760.png) <br />
 
+epoch 4: <br />
+![fake_samples_epoch_004](https://user-images.githubusercontent.com/41305591/71657914-d5073480-2d0f-11ea-9c86-9b90d9df3659.png) <br />
 
+epoch 8 : <br />
+![fake_samples_epoch_008](https://user-images.githubusercontent.com/41305591/71657962-07b12d00-2d10-11ea-98ec-2cab78eb7792.png) <br />
+
+epoch 12: <br />
+![fake_samples_epoch_012](https://user-images.githubusercontent.com/41305591/71657991-28798280-2d10-11ea-9596-a915f0a483a6.png) <br />
+
+epoch 15 : <br />
+![fake_samples_epoch_015](https://user-images.githubusercontent.com/41305591/71658028-552d9a00-2d10-11ea-8ec1-85ce07c8acd7.png) <br />
+
+epoch 21 : <br />
+![fake_samples_epoch_021](https://user-images.githubusercontent.com/41305591/71658058-6d9db480-2d10-11ea-9e7f-0fd56a2aca1f.png) <br />
+
+epoch 24 : <br />
+![fake_samples_epoch_024](https://user-images.githubusercontent.com/41305591/71658084-860dcf00-2d10-11ea-90dd-fc459394b1df.png)
 
 ## Acknowledgments
 
