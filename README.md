@@ -1,5 +1,5 @@
 # Image_Generator-GAN
- This is a computer vision model that learns from real images and generates fake images using Genrative neural network. This model is trained for 25 epochs images generated in each epoch is better relative to the previous epoch due to training. This requires a Generator to use Deconvolutional neural network which takes a noise vector of size 100 and outputs a fake imgage. This image is taken as input by Discriminator's convoliutional neural network which compares it to the ground truth training data and returns a cost function which gets propogated in the neural network. For the training of Discriminator, we compute cost function against a target of 0 while for Generator we compute it against target of 1.
+ This computer vision model learns from real images and generates fake images using Genrative neural network. This requires a Generator to use Deconvolutional neural network which takes a noise vector of size 100 and outputs a fake image. This image is taken as input by Discriminator's convoliutional neural network which compares it to the ground truth training data and returns a cost function which gets propogated in the neural network. For the training of Discriminator, we compute cost function against a target of 0 while for Generator we compute it against target of 1. The model is trained for 25 epochs.
 
 ## Getting Started
 
@@ -13,8 +13,7 @@ you need to install
 Anaconda
 Python 3.6
 Pytorch
-
-
+CIFAR-10 dataset
 ```
 
 ### Installing
@@ -24,46 +23,26 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+Anaconda :
+https://docs.anaconda.com/anaconda/install/
+Python 3.6 :
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
+Pytorch :
+https://anaconda.org/pytorch/pytorch
+CIFAR-10 dataset:
+https://www.cs.toronto.edu/~kriz/cifar.html
 ```
 
-And repeat
 
-```
-until finished
-```
+## Running the APP
+run the app and wait for the model to get trained and generate images. Once finished, images should be generated in a separate folder called "results". This folder would containing an image labellel "real_samples.png" which contains 64 tiny sample sample images. The model learns from these images, generates fake images and then gets better at it. This process repeats for 25 epochs. At the end we get a fake image generated at each epoch (see results folder).
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 ## Acknowledgments
