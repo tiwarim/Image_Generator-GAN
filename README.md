@@ -36,6 +36,10 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 
 ## Running the APP
 run the app and wait for the model to get trained and generate images. Once finished, images should be generated in a separate folder called "results". This folder would containing an image labellel "real_samples.png" which contains 64 tiny sample sample images. The model learns from these images, generates fake images and then gets better at it. This process repeats for 25 epochs. At the end we get a fake image generated at each epoch (see results folder).
+<br />
+
+**Results** <br />
+![](results.gif)
 
 
 
