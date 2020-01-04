@@ -21,10 +21,13 @@ CIFAR-10 dataset
 ```
 Anaconda :
 https://docs.anaconda.com/anaconda/install/
+
 Python 3.6 :
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
+
 Pytorch :
 https://anaconda.org/pytorch/pytorch
+
 CIFAR-10 dataset:
 https://www.cs.toronto.edu/~kriz/cifar.html
 ```
