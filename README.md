@@ -1,5 +1,5 @@
 # Image_Generator-GAN
- This computer vision model learns from real images and generates fake images using Genrative neural network. This requires a Generator to use Deconvolutional neural network which takes a noise vector of size 100 and outputs a fake image. This image is taken as input by Discriminator's convoliutional neural network which compares it to the ground truth training data and returns a cost function which gets propogated in the neural network. For the training of Discriminator, we compute cost function against a target of 0 while for Generator we compute it against target of 1. The model is trained for 25 epochs.
+ This computer vision model learns from real images and generates fake images using Genrative neural network. This requires a Generator to use Deconvolutional neural network which takes a noise vector of size 100 and outputs a fake image. This image is taken as input by Discriminator's convoliutional neural network which compares it to the ground truth training data and returns a cost function which gets back propogated in the neural network. For the training of Discriminator, we compute cost function against a target of 0 while for Generator we compute it against target of 1. The model is trained for 25 epochs.
 
 ## Getting Started
 
